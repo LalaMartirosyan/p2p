@@ -52,15 +52,17 @@ const Checking = () => {
       <p className={style.commision}>
         Комиссия продавца за каждую транзакцию = 0,9% 
       </p>
-      <div className={style.comment}>
-        <div className={style.commentImg}>
-          <div className={style.commentImgFon}>
-            <img className={style.circleImg} src={circle} alt="" />
+      <div className={style.commentDiv}>
+        <div className={style.comment}>
+          <div className={style.commentImg}>
+            <div className={style.commentImgFon}>
+              <img className={style.circleImg} src={circle} alt="" />
+            </div>
           </div>
-        </div>
-        <div className={style.commentText}>
-          <p className={style.commentText1}>Комментарий</p>
-          <p className={style.commentText2}>Привет</p>
+          <div className={style.commentText}>
+            <p className={style.commentText1}>Комментарий</p>
+            <p className={style.commentText2}>Привет</p>
+          </div>
         </div>
       </div>
       <button className={style.createBtn}>Создать объявление</button>
