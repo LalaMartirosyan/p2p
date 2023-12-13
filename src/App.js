@@ -1,6 +1,6 @@
 import "./App.css";
 import Checking from "./Components/Checking/Checking";
-// import Menu from "./Components/Menu/Menu";
+import Menu from "./Components/Menu/Menu";
 // import Message from "./Components/Message/Message";
 // import Method from "./Components/Method/Method";
 // import PaymentMethod from "./Components/PaymentMethod/PaymentMethod";
@@ -12,11 +12,11 @@ tg.expand();
 function App() {
   return (
     <div className="App">
-      {/* <Menu /> */}
+      <Menu />
       {/* <PaymentMethod/> */}
       {/* <Method/> */}
       {/* <Message />      */}
-      <Checking/>
+      {/* <Checking/> */}
     </div>
   );
 }
